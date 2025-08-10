@@ -1,0 +1,8 @@
+
+arr = [1, 2, 3, 4, 5]
+
+# Rotate by one
+last_element = arr.pop()  # Remove last element
+arr.insert(0, last_element)  # Insert it at the front
+
+print(arr)
